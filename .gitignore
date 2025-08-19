@@ -1,0 +1,47 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Кэш pytest
+.pytest_cache/
+
+# Кэш mypy
+.mypy_cache/
+
+# Кэш coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Логи
+*.log
+
+# SQLite (если используется в dev)
+db.sqlite3
+
+# === Django ===
+# Статика и медиа (если они собираются автоматически)
+staticfiles/
+media/
+
+# === IDE: PyCharm ===
+.idea/
+*.iml
+
+# === ОС системные файлы ===
+.DS_Store
+Thumbs.db
